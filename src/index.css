@@ -1,0 +1,55 @@
+* {
+  margin: 0px;
+  font-family: Helvetica, sans-serif;
+  font-weight: 300;
+  transition: all 1s;
+}
+
+.App {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100dvh;
+  flex-direction: column;
+}
+
+h1 {
+  font-weight: 600;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+}
+
+p {
+  text-align: justify;
+}
+
+.borderContainer,
+.content {
+  z-index: 100;
+  position: relative;
+}
+
+.borderContainer {
+  margin-top: 10px;
+}
+header {
+  position: absolute;
+  top: 0px;
+  width: 100%;
+}
+
+.circle {
+  width: 30px;
+  height: 30px;
+  background-color: orange;
+  border-radius: 50%;
+  position: absolute;
+  bottom: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
